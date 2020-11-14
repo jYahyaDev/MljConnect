@@ -8,9 +8,10 @@ body{
 /* Header est le container du logo et du bouton pour créer un compte. Utilisation du flex-box*/
 
 header{
-    margin: 0;
+    box-sizing: border-box;
+    padding: 1px;
     width: 100%;
-    height: 16vh;
+    height: 18vh;
     display: flex;
     justify-content:space-between; /* Afin de séparer les items */
 }
@@ -20,12 +21,22 @@ header{
     width: 90%
 }
 
+
+/*IMAGES */
+
+
 .logotop{
     width: 230px;
     float: left;
-
 }
 
+.logogj{
+    width: 150px;
+    height: auto;
+}
+
+
+/*LIENS*/
 a{  
     color: white;
     font-weight: bold;
@@ -39,6 +50,8 @@ a{
     padding: 10px;
 }
 
+
+/*div du côté gauche*/
 .left{
     clear: left;
     width: 15%;
@@ -52,37 +65,22 @@ a{
     width: 85%;
 }
 
-.gj{
-    position: relative;
-    margin: 0 auto;
-    width:30%;
 
-
-}
-.logogj{
-    position: absolute;
-    top: -70px;
- 
-    margin-left:100px;
-    width: 120px;
-    height: auto;
-   
-
-}
 
 h1{
     font-size: 25px;
     text-align: center;
 }
-.connect{
-    margin: 50px auto;
-    width: 30%;
-    background-color: rgb(169, 222, 247);
- 
-}
+
+
+
 form{
+    
+    width: 40%;
     padding: 5px;
     text-align: center; 
+    margin: 50px auto 0 auto;
+    background-color: rgb(168, 230, 223);
 
 }
 
@@ -105,7 +103,7 @@ input{
 
 footer{
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     background-color: #0D8BA7;
 }
 
